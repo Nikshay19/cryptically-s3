@@ -1,0 +1,19 @@
+<nav class="navbar navbar-light navbar-expand-lg fixed-top shadow-sm bg-white"><a href="index.html" class="navbar-brand">Cryptically</a>
+  <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+  <div id="navbarSupportedContent" class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" routerLinkActive="active" routerLink="AboutCryptically">About Cryptically</a></li>
+      <li class="nav-item"><a class="nav-link" routerLinkActive="active" routerLink="privypolicy">Privacy & Policy</a></li>
+    </ul>
+    <div class="navbar-text ml-lg-3">
+      <a routerLinkActive="active" routerLink="Registration" class="btn btn-primary text-white shadow">Register</a>
+    </div>
+    <div class="navbar-text ml-lg-3">
+      <a routerLinkActive="active" routerLink="Login" class="btn btn-primary text-white shadow">Login</a>
+    </div>
+    <div class="navbar-text ml-lg-3">
+        <a routerLinkActive="active" routerLink="logout" class="btn btn-primary text-white shadow" (click)="triggerLogOut()">Logout</a>
+      </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>

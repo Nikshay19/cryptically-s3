@@ -1,0 +1,8 @@
+<div class="wrapper" style="margin:264px">
+    <div class="form-signin" style="margin: 164px">       
+      <h2 class="form-signin-heading">Login</h2>
+      <input #uname type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" style="margin-bottom: 19px"/>
+      <input #passwd type="password" class="form-control" name="password" placeholder="Password" required="" style="margin-bottom: 19px"/>      
+      <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="login(uname.value,passwd.value)">Login</button>   
+    </div>
+  </div>

@@ -1,0 +1,15 @@
+<div style="margin: 180px;">
+  <label class="btn btn-default">
+    <input type="file" (change)="selectFile($event)">
+  </label>
+  
+  <button class="btn btn-success" [disabled]="!selectedFiles" (click)="upload()">Upload</button>
+</div>
+<div style="margin: 250px;">
+<table class="table table-striped">
+<tr *ngFor="let item of listfiles;let i=index">
+<td>{{item}}<button type="button" class="btn btn-success" style="margin-left: 360px;" (click)="download(item)">Download</button>
+</td>
+</tr>
+</table>
+</div>
