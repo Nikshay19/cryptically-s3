@@ -19,7 +19,7 @@
     "@angular/platform-browser": "~8.2.9",
     "@angular/platform-browser-dynamic": "~8.2.9",
     "@angular/router": "~8.2.9",
-    "aws-sdk": "^2.560.0",
+    "aws-sdk": "^2.814.0",
     "bootstrap": "^4.3.1",
     "file-saver": "^2.0.2",
     "jquery": "^3.4.1",
